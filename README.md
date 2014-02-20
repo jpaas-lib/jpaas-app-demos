@@ -20,10 +20,10 @@ jpaas-app-demos
 
 ### Step 3. Hello World!
 
-	git clone https://github.com/jpaas-lib/jpaas-app-demos
+	$ git clone https://github.com/jpaas-lib/jpaas-app-demos
 
-	cd <Demo App>
-	appname="my-demo" # change to your own name
+	$ cd <Demo App>
+	$ appname="my-demo" # change to your own name
 
-	jpaas push ${appname} -i 1 -m 64M -b <Buildpack Url>
-	curl ${appname}.<API endpoint>
+	$ jpaas push ${appname} -i 1 -m 64M -b <Buildpack Url>
+	$ curl ${appname}.<API endpoint>
